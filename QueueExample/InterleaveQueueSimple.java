@@ -48,9 +48,6 @@ offer(E e)
 Purpose: Adds an element to the end (tail) of the queue.
 Syntax:
 queue.offer(element);
-Returns:
-true if the element was successfully added.
-false if the queue has capacity restrictions and is full.
 */
 
 /*
@@ -58,7 +55,4 @@ poll()
 Purpose: Removes and returns the head (first element) of the queue.
 Syntax:
 E element = queue.poll();
-Returns:
-The head element (first in line).
-null if the queue is empty.
 */
